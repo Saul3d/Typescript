@@ -1,10 +1,11 @@
 import { AccountingDept }  from './accounting.js';
 
-const ReconAccounting = new AccountingDept(1, 55);
+const ReconAccounting = new AccountingDept(1, 200);
 
 const displayDiv = document.querySelector("#displayValue");
 const employeeInput = document.querySelector('input');
 
+console.log(ReconAccounting.getPeople);
 employeeInput.addEventListener('change', updateValue);
 
 function updateValue () {

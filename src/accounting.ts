@@ -1,5 +1,5 @@
 export class AccountingDept {
-  constructor(public id: number, public employees: number) {
+  constructor(public id: number, public employees?: number) {
   }
 
   get getPeople () {
